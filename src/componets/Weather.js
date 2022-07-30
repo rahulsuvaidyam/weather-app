@@ -1,5 +1,6 @@
 import React,{useEffect, useState} from "react";
 import './weather.css';
+import sun from '../sun.png';
 
 
 
@@ -31,7 +32,9 @@ const Weather = () =>{
                 <div className="city">
                 <h1><i className="fa fa-child pe-3"></i>{search}</h1>
                 </div>
+                
                 <div className="tem">
+                <img className="sun-img" src={sun} alt="sun" />
                 <h2 className="temp">{city.temp} °Cel</h2>
                 </div>
                 <div className="tem-f">
