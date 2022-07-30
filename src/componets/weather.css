@@ -53,6 +53,7 @@ p{
 }
 .temp{
     font-size: 60px;
+    text-shadow: 2px 4px 14px white;
 }
 @media (max-width:600px){
     .card{
