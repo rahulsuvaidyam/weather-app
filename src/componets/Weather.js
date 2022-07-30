@@ -32,7 +32,7 @@ const Weather = () =>{
                 <h1><i className="fa fa-child pe-3"></i>{search}</h1>
                 </div>
                 <div className="tem">
-                <h2>{city.temp} °Cel</h2>
+                <h2 className="temp">{city.temp} °Cel</h2>
                 </div>
                 <div className="tem-f">
                 <p>Min : {city.temp_min} °Cel | Max : {city.temp_max} °Cel</p>
