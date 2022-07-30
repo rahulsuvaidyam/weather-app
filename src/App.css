@@ -1,0 +1,11 @@
+.green{
+    color: green;
+}
+.red{
+    color: red;
+}
+.container-fluid{
+   display: flex;
+   text-align: center;
+   justify-content: center;
+}

@@ -1,0 +1,47 @@
+.container-fuild{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 360px;
+    padding: 10px;
+    background-image: url(../wave.jpg);
+    background-size: cover;
+}
+input{
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    width: 250px;
+    height: 40px;
+}
+.city{
+    margin-top: 40px;
+}
+.Data{
+    margin-top: 40px;
+    color: red;
+}
+.tem{
+    margin-top: 30px;
+}
+.tem-f{
+    margin-top: 20px;
+}
+.humidity{
+    margin-bottom: 50px;
+
+}
+@media (max-width:600px){
+    .card{
+        margin-top: 0px !important;
+        width: 450px;
+        height: 90vh;
+        border-radius: 0px;
+    }
+}
