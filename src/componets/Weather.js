@@ -23,6 +23,7 @@ const Weather = () =>{
     return(
        <>
        <div className="container-fuild">
+        <div className="wave">
         <div className="card mt-3">
             <div className="input"><input type="search" value={search} onChange={(event) =>{setSearch(event.target.value)}}/></div>
            
@@ -49,6 +50,7 @@ const Weather = () =>{
                </>
            )}
             
+        </div>
         </div>
         
        </div>

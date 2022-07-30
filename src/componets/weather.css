@@ -1,19 +1,23 @@
 .container-fuild{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 0px;
+    width: 100%;
+   
     
 }
-.card{
+.wave{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.card{
     width: 360px;
-    padding: 10px;
+    height: 100vh;
     background-image: url(../wave.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    padding: 10px;
 }
 input{
     width: 313px;
@@ -54,7 +58,7 @@ input{
     border: 2px solid gray;
 }
 .humidity{
-    margin-bottom: 50px;
+    /* margin-bottom: 30px; */
     margin-top: 4px;
     width: 313px;
     text-align: center;
@@ -70,10 +74,20 @@ p{
     text-shadow: 2px 4px 14px #262626;
 }
 @media (max-width:600px){
+    .container-fuild{
+        width: 100%;
+        /* background-image: url(../wave.jpg); */
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+    }
+    input{
+        margin-top: 30px;
+    }
     .card{
-        margin-top: 0px !important;
-        width: 450px;
+        width: 570px;
         border-radius: 0px;
+        margin-top: 0px !important;
     }
     .humidity{
         margin-bottom: 100px;
